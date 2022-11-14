@@ -45,7 +45,65 @@ body {
 
 /* krossi */
 /* just */
-
+.krossi {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    padding: 0px 15px;
+}
+.krossi__box-items {
+    margin: 0px 15px;
+    display: flex;
+    gap: 32px;
+}
+.krossi__box-item {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background: #FFFFFF;
+    border: 1px solid #A0A0A0;
+}
+.krossi__box-title {
+    font-size: 22px;
+    line-height: 18px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.krossi__box-text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #6A6A6A;
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 0px 15px;
+}
+.krossi__box-sale {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px 15px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.krossi__sale-link {
+    background: #DFC900;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #050505;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    width: 223px;
+    padding: 11px;
+    text-align: center;
+}
+.krossi__sale-span {
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000000;
+}
 
 
 
