@@ -21,6 +21,37 @@ body {
 }
 
 /* nav */
+.header__nav{
+    
+background: #322E41;
+padding:  20px 0;
+}
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-list{
+    display: flex;
+    align-items: center;
+    column-gap: px;
+}
+.header__nav-link{
+    color: #FFFFFF;
+    font-size: 16px;
+line-height: 19px; 
+border-bottom: 2px transparent;
+ padding: 28px; 
+ transition: 320ms;
+ outline: none;
+}
+.header__nav-link:hover {
+    color: #FFE600;
+   
+    
+    border-bottom: 2px solid white;
+    
+}
 
 
 /* nav */
