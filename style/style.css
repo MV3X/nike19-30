@@ -200,9 +200,26 @@ color: #050505;
 
 
 
-/* just */
-/* express */
-
+.backgrond__box-img{
+    height: 557px;
+    background: url(../images/Video.jpg) no-repeat center /cover;
+}
+.box__text{
+    width: 400px;
+    height: 154px;
+    background: rgba(186, 186, 186, 0.5);
+    backdrop-filter: blur(7.5px);
+    font-size: 40px;
+    line-height: 47px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    
+}
 
 
 /* express */
